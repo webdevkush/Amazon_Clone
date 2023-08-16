@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border {
+    border: none;
+}
+
+.border:hover {
+    border: 1.5px solid #fff;
+}
+
+.search-border {
+    border: none;
+}
+
+.search-border:hover {
+    box-shadow: 0px 0px 1px 3px orange;
+    transition: all 0.2s ease;
+}
