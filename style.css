@@ -161,3 +161,68 @@
     font-size: 14px;
     text-decoration: none;
 }
+
+.hero-section{
+    background-color: #e3e6e6;
+}
+
+.hero-img {
+    background-image: url('https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg');
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.hero-info {
+    background-color: #f5f6f6;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 250px;
+}
+
+.hero-info p {
+    font-size: 14px;
+}
+
+.hero-info a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    position: relative;
+    top: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    height: 420px;
+    width: 350px;
+    background-color: #fff;
+}
+
+.item-title {
+    font-size: 21px;
+    color: #0f1111;
+    margin: 10px;
+    padding: 20px;
+}
+
+.item-images {
+    border: 1px solid black;
+}
+
+.item-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+}
